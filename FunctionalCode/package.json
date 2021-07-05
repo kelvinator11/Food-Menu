@@ -1,0 +1,21 @@
+{
+  "name": "functionalcode",
+  "version": "1.0.0",
+  "description": "Software engineering Food Menu-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
