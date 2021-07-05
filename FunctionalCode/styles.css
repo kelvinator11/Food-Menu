@@ -211,7 +211,7 @@ Menu
   justify-content: center;
 }
 .filter-btn {
-  background: transparent;
+  background: rgb(34, 24, 1);
   border-color: var(--clr-gold);
   font-size: 1rem;
   text-transform: capitalize;
@@ -243,6 +243,14 @@ Menu
   display: grid;
   gap: 1rem 2rem;
   max-width: 25rem;
+  cursor: pointer;
+ transition: all 0.3s ease-in-out;
+}
+.menuitem img{
+ transition: all 0.3s ease-in-out;
+}
+.menu-item:hover {
+  transform: scale(1.08);
 }
 .menu-item-count {
   width: 95vw;

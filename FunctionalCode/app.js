@@ -174,11 +174,11 @@ function displayMenuButtons() {
   });
 }
 // // let showMenu = new diplayMenuItems();
-const showCount = () => {
-  const ItemNumber = menu.length;
-  return ItemNumber;
-};
-module.exports = { showCount, };
+// const showCount = () => {
+//   const ItemNumber = menu.length;
+//   return ItemNumber;
+// };
+// module.exports = { showCount, };
 // // module.exports = {
 //   sayHello: function () {
 //     return "hello";
